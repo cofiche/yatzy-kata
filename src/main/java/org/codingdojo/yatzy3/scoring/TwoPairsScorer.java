@@ -1,10 +1,12 @@
-package org.codingdojo.yatzy3;
+package org.codingdojo.yatzy3.scoring;
+
+import org.codingdojo.yatzy3.calculator.ScoreCalculator;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import static org.codingdojo.yatzy3.DiceUtils.*;
+import static org.codingdojo.yatzy3.utils.DiceUtils.*;
 
 public class TwoPairsScorer implements ScoreCalculator {
     @Override

@@ -1,10 +1,10 @@
 package org.codingdojo.yatzy3;
 
-import static org.codingdojo.YatzyCategory.*;
-
 import java.util.List;
-import org.codingdojo.YatzyCalculator;
-import org.codingdojo.YatzyCategory;
+import org.codingdojo.yatzy3.calculator.YatzyCalculator;
+import org.codingdojo.yatzy3.categories.YatzyCategory;
+import org.codingdojo.yatzy3.calculator.ScoreCalculator;
+import org.codingdojo.yatzy3.factories.ScorerFactory;
 
 public class Yatzy3 implements YatzyCalculator {
 

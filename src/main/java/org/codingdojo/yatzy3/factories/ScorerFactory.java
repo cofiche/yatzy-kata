@@ -1,11 +1,13 @@
-package org.codingdojo.yatzy3;
+package org.codingdojo.yatzy3.factories;
 
-import org.codingdojo.YatzyCategory;
+import org.codingdojo.yatzy3.categories.YatzyCategory;
+import org.codingdojo.yatzy3.calculator.ScoreCalculator;
+import org.codingdojo.yatzy3.scoring.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.codingdojo.YatzyCategory.*;
+import static org.codingdojo.yatzy3.categories.YatzyCategory.*;
 
 
 public class ScorerFactory {
@@ -30,8 +32,7 @@ public class ScorerFactory {
     }
 
     public static ScoreCalculator getScorer(YatzyCategory category) {
-        ScoreCalculator scorer = scorers.get(category);
-        return scorer;
+        return scorers.get(category);
     }
 }
 

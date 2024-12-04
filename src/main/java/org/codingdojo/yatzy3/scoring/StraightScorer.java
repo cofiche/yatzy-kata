@@ -1,9 +1,11 @@
-package org.codingdojo.yatzy3;
+package org.codingdojo.yatzy3.scoring;
+
+import org.codingdojo.yatzy3.calculator.ScoreCalculator;
 
 import java.util.List;
 
-import static org.codingdojo.yatzy3.DiceUtils.calculateFrequencies;
-import static org.codingdojo.yatzy3.DiceUtils.calculateSum;
+import static org.codingdojo.yatzy3.utils.DiceUtils.calculateFrequencies;
+import static org.codingdojo.yatzy3.utils.DiceUtils.calculateSum;
 
 public class StraightScorer implements ScoreCalculator {
     private final int straightIncludes;

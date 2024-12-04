@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
 import java.util.stream.Stream;
 import org.codingdojo.yatzy3.Yatzy3;
+import org.codingdojo.yatzy3.calculator.YatzyCalculator;
+import org.codingdojo.yatzy3.categories.YatzyCategory;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 

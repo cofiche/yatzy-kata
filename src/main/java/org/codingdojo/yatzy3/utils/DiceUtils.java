@@ -1,4 +1,4 @@
-package org.codingdojo.yatzy3;
+package org.codingdojo.yatzy3.utils;
 
 import java.util.Arrays;
 import java.util.HashMap;

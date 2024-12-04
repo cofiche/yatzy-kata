@@ -1,4 +1,4 @@
-package org.codingdojo.yatzy3;
+package org.codingdojo.yatzy3.calculator;
 
 import java.util.List;
 
