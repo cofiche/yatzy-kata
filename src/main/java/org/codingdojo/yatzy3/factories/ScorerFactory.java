@@ -34,5 +34,12 @@ public class ScorerFactory {
     public static ScoreCalculator getScorer(YatzyCategory category) {
         return scorers.get(category);
     }
+
+    public static void registerScorer(YatzyCategory category, ScoreCalculator scorer) {
+        if (scorers.containsKey(category)) {
+            throw new IllegalArgumentException("Scorer for category " + category + " is already registered.");
+        }
+        scorers.put(category, scorer);
+    }
 }
 
